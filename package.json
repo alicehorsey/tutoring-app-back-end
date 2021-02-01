@@ -1,0 +1,25 @@
+{
+  "name": "tutoring-app-back-end",
+  "version": "1.0.0",
+  "description": "Tutoring app back end ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alicehorsey/tutoring-app-back-end.git"
+  },
+  "author": "Alice Horsey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alicehorsey/tutoring-app-back-end/issues"
+  },
+  "homepage": "https://github.com/alicehorsey/tutoring-app-back-end#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jest": "^26.6.3",
+    "knex": "^0.21.17",
+    "pg": "^8.5.1"
+  }
+}
