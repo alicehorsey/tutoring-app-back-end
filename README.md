@@ -1,4 +1,4 @@
-# tutoring-app-back-end
+# Tutoring App
 
 My first personal coding project since graduating from Northcoders Coding Bootcamp, the aim of this project is to build a full stack application for personal tutors, specifically tutors teaching children up to the age of 11, remotely.
 
