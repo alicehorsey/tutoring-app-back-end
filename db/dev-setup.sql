@@ -8,7 +8,7 @@ CREATE TABLE parents (
     parent_forename VARCHAR(255) NOT NULL,
     parent_surname VARCHAR(255) NOT NULL,
     home_address VARCHAR(255) NOT NULL,
-    phone_number INT NOT NULL,
+    phone_number VARCHAR(20) NOT NULL,
     email_address VARCHAR(255) NOT NULL,
     additional_information VARCHAR(255)
 );
@@ -45,19 +45,19 @@ CREATE TABLE work_books (
     publisher VARCHAR(255) NOT NULL
 );
 
-CREATE TABLE topics_junction (
+CREATE TABLE pupil_to_topics (
     pupil_id INT REFERENCES pupils(pupil_id) NOT NULL, 
     topic_id INT REFERENCES topics(topic_id) NOT NULL,
     completed BOOLEAN
 );
 
-CREATE TABLE reading_books_junction (
+CREATE TABLE pupil_to_reading_books (
     pupil_id INT REFERENCES pupils(pupil_id) NOT NULL, 
     reading_book_id INT REFERENCES reading_books(reading_book_id) NOT NULL,
     completed BOOLEAN
 );
 
-CREATE TABLE work_books_junction (
+CREATE TABLE pupil_to_work_books (
     pupil_id INT REFERENCES pupils(pupil_id) NOT NULL, 
     work_book_id INT REFERENCES work_books(work_book_id) NOT NULL,
     completed BOOLEAN
