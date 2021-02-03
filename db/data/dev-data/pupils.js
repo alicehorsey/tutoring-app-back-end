@@ -1,5 +1,6 @@
 module.exports = [
     {
+        parent_id: 1,
         pupil_forename: 'George',
         pupil_surname: 'Brown',
         starting_date: '2019-04-06',
@@ -11,6 +12,7 @@ module.exports = [
         pupil_information: 'maths above average',
     },
     {
+        parent_id: 1,
         pupil_forename: 'Amelia',
         pupil_surname: 'Brown',
         starting_date: '2019-09-20',
@@ -22,17 +24,7 @@ module.exports = [
         pupil_information: 'needs lots of encouragement',
     },
     {
-        pupil_forename: 'Henry',
-        pupil_surname: 'Williams',
-        starting_date: '2018-09-02',
-        dob: '2011-06-22',
-        school: 'primary-school-b',
-        year_group: 6,
-        handedness: 'right',
-        prelim_information: 'needs help with maths',
-        pupil_information: 'avid reader',
-    },
-    {
+        parent_id: 2,
         pupil_forename: 'Hetty',
         pupil_surname: 'Smith',
         starting_date: '2019-09-05',
@@ -44,6 +36,19 @@ module.exports = [
         pupil_information: 'verbal reasoning really improving',
     },
     {
+        parent_id: 3,
+        pupil_forename: 'Henry',
+        pupil_surname: 'Williams',
+        starting_date: '2018-09-02',
+        dob: '2011-06-22',
+        school: 'primary-school-b',
+        year_group: 6,
+        handedness: 'right',
+        prelim_information: 'needs help with maths',
+        pupil_information: 'avid reader',
+    },
+    {
+        parent_id: 4,
         pupil_forename: 'John',
         pupil_surname: 'Thompson',
         starting_date: '2019-01-08',
@@ -55,6 +60,7 @@ module.exports = [
         pupil_information: 'spellings sometimes need more time',
     },
     {
+        parent_id: 4,
         pupil_forename: 'Lily',
         pupil_surname: 'Thompson',
         starting_date: '2020-05-01',
@@ -66,6 +72,7 @@ module.exports = [
         pupil_information: 'lovely creative imagination, needs help with fractions',
     },
     {
+        parent_id: 5,
         pupil_forename: 'Mary',
         pupil_surname: 'Wilson',
         starting_date: '2018-11-20',
