@@ -4,7 +4,8 @@
   "description": "Tutoring app back end ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "setup-dev-db": "psql -f ./db/dev-setup.sql",
+    "seed-dev": "npm run setup-dev-db && knex seed:run"
   },
   "repository": {
     "type": "git",
