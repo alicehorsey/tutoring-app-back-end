@@ -5,7 +5,7 @@ module.exports = [
         home_address: 'The House, The Grove',
         phone_number: '00000111222',
         email_address: 'mandy@mandybrown.com',
-        additional_information: 'contact best via text as works shifts'
+        parent_information: 'contact best via text as works shifts'
     },
     {
         parent_forename: 'David',
@@ -13,7 +13,7 @@ module.exports = [
         home_address: 'The Big House, Town Square',
         phone_number: '00000123456',
         email_address: 'david@davidsmith.co.uk',
-        additional_information: 'works 9-5'
+        parent_information: 'works 9-5'
     },
     {
         parent_forename: 'Sarah',
@@ -21,7 +21,7 @@ module.exports = [
         home_address: 'The Bungalow, Little Town',
         phone_number: '00000000111',
         email_address: 'sarah@williams.com',
-        additional_information: 'works 9-5'
+        parent_information: 'works 9-5'
     },
     {
         parent_forename: 'Julie',
@@ -29,7 +29,7 @@ module.exports = [
         home_address: '10 The Lane, Little Town',
         phone_number: '00000222333',
         email_address: 'julie@juliethompson.com',
-        additional_information: 'internet quality sometimes poor'
+        parent_information: 'internet quality sometimes poor'
     },
     {
         parent_forename: 'Amanda',
@@ -37,6 +37,6 @@ module.exports = [
         home_address: '45 The Road, Grove Town',
         phone_number: '00000444555',
         email_address: 'amanda@amandawilson.com',
-        additional_information: 'younger sibling interested in tutoring from 2023'
+        parent_information: 'younger sibling interested in tutoring from 2023'
     }
 ]
