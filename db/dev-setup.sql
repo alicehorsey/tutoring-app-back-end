@@ -10,7 +10,7 @@ CREATE TABLE parents (
     home_address VARCHAR(255) NOT NULL,
     phone_number VARCHAR(20) NOT NULL,
     email_address VARCHAR(255) NOT NULL,
-    additional_information VARCHAR(255)
+    parent_information VARCHAR(255)
 );
 
 CREATE TABLE pupils (
