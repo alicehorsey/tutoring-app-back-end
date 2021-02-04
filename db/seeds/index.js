@@ -6,7 +6,7 @@ exports.seed = (connection) => {
         .into('parents')
         .returning('*')
         .then((parentRows) => {
-            // console.log(`inserted ${parentRows.length} rows into parents table`)
+            console.log(`inserted ${parentRows.length} rows into parents table`)
 
             return connection
                 .insert(data.pupilsData)
@@ -14,7 +14,7 @@ exports.seed = (connection) => {
                 .returning('*')
         })
         .then((pupilRows) => {
-            // console.log(`inserted ${pupilRows.length} rows into pupils table`)
+            console.log(`inserted ${pupilRows.length} rows into pupils table`)
 
             return connection
                 .insert(data.creativeTopicsData)
@@ -22,7 +22,7 @@ exports.seed = (connection) => {
                 .returning('*')
         })
         .then((topicsRows) => {
-            // console.log(`inserted ${topicsRows.length} rows into topics table`)
+            console.log(`inserted ${topicsRows.length} rows into topics table`)
 
             return connection
                 .insert(data.readingBooksData)
@@ -30,7 +30,7 @@ exports.seed = (connection) => {
                 .returning('*')
         })
         .then((readingBooksRows) => {
-            // console.log(`inserted ${readingBooksRows.length} rows into reading_books table`)
+            console.log(`inserted ${readingBooksRows.length} rows into reading_books table`)
 
             return connection
                 .insert(data.workBooksData)
@@ -38,6 +38,6 @@ exports.seed = (connection) => {
                 .returning('*')
         })
         .then((workBooksRows) => {
-            // console.log(`inserted ${workBooksRows.length} rows into work_books table`)
+            console.log(`inserted ${workBooksRows.length} rows into work_books table`)
         })
 }
