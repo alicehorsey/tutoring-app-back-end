@@ -1,0 +1,107 @@
+{
+    "GET /api": {
+        "description": "serves a json of all available endpoints"
+    },
+    "GET /api/pupils": {
+        "description": "serves an array of all pupils (pupil info only)",
+        "queries": [],
+        "exampleResponse": {
+            "pupils": [
+                {
+                    "pupil_id": 1,
+                    "parent_id": 1,
+                    "pupil_forename": "George",
+                    "pupil_surname": "Brown",
+                    "starting_date": "2019-04-05T23: 00: 00.000Z",
+                    "dob": "2014-10-03T23: 00: 00.000Z",
+                    "school": "primary-school-a",
+                    "year_group": 5,
+                    "handedness": "right",
+                    "prelim_information": "struggling with English",
+                    "pupil_information": "maths above average"
+                }
+            ]
+        }
+    },
+    "GET /api/pupils-parents": {
+        "description": "serves an array of all pupils with their parent information as well",
+        "queries": [],
+        "exampleResponse": {
+            "pupils": [
+                {
+                    "parent_id": 1,
+                    "parent_forename": "Mandy",
+                    "parent_surname": "Brown",
+                    "home_address": "The House, The Grove",
+                    "phone_number": "00000111222",
+                    "email_address": "mandy@mandybrown.com",
+                    "parent_information": "contact best via text as works shifts",
+                    "pupil_id": 1,
+                    "pupil_forename": "George",
+                    "pupil_surname": "Brown",
+                    "starting_date": "2019-04-05T23: 00: 00.000Z",
+                    "dob": "2014-10-03T23: 00: 00.000Z",
+                    "school": "primary-school-a",
+                    "year_group": 5,
+                    "handedness": "right",
+                    "prelim_information": "struggling with English",
+                    "pupil_information": "maths above average"
+                }
+            ]
+        }
+    },
+    "GET /api/work/topics": {
+        "description": "serves an array of all creative topics",
+        "queries": [],
+        "exampleResponse": {
+            "topics": [
+                {
+                    "topic_id": 1,
+                    "title": "All about me"
+                },
+                {
+                    "topic_id": 2,
+                    "title": "My Best Friends"
+                }
+            ]
+        }
+    },
+    "GET /api/work/reading-books": {
+        "description": "serves an array of all reading books",
+        "queries": [],
+        "exampleResponse": {
+            "readingBooks": [
+                {
+                    "reading_book_id": 1,
+                    "title": "The Owl who was Afraid of the Dark",
+                    "author": "Jill Tomlinson",
+                    "publisher": "Egmont"
+                },
+                {
+                    "reading_book_id": 2,
+                    "title": "Charlie and the Chocolate Factory",
+                    "author": "Roald Dahl",
+                    "publisher": "Puffin"
+                }
+            ]
+        }
+    },
+    "GET /api/work/work-books": {
+        "description": "serves an array of all work books",
+        "queries": [],
+        "exampleResponse": {
+            "workBooks": [
+                {
+                    "work_book_id": 1,
+                    "title": "Bond 11+ Verbal Reasoning 10 Minute Tests 9-10 years",
+                    "publisher": "Oxford"
+                },
+                {
+                    "work_book_id": 2,
+                    "title": "Bond 11+ Maths Assessment Papers Book 1 9-10 years",
+                    "publisher": "Oxford"
+                }
+            ]
+        }
+    }
+}
